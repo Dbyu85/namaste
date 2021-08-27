@@ -16,9 +16,6 @@ body{
 
 /* heading and logo*/
 
-#namaste header{
-    
-}
 
 h1, h2{
     font-family: Quicksand, sans-serif;
@@ -100,7 +97,7 @@ h1, h2{
 /* yoga picture*/
 
 #yoga-picture{
-  height: 650px;
+  height: 550px;
   max-width: 100%;
   margin: 1%;
   padding: 5px 155px 25px 155px;
@@ -119,17 +116,29 @@ h1, h2{
 
 #namaste-category{
     max-width: 100%;
-    height: 350px;
+    height: 250px;
+    text-align: center;
+    padding: 20px 15px 0px 0px;
+    
+}
+
+#namaste-category h1{
+    padding:15px;
 }
 
 #namaste-category div{
-    max-width: 20%;
-    height: 250px;
-    float: left;
-    padding: 30px 0 0 10px;
+    max-width: 100%;
+    height: 210px;
+    padding: 20px 15px 0px 30px;
     text-align: center;
-    border: 2px solid rgb(189, 27, 27);
+    border: 2px solid white ;
     box-sizing: border-box;
+    display: inline-block;
+    text-decoration: none;
+}
+
+.mindfulness, .meditation, .yoga li{
+    list-style-type: none;
 }
 
 /* Instructore section */
