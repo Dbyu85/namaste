@@ -7,16 +7,54 @@
 }
 
 body{
-    font-family: Lato, Quicksand;
+    font-family: Lato, sans-serif;
     font-weight: 300;
     color: #3a3a3a;
     overflow-x: hidden;
+    background-color: bisque;
 }
 
 /* heading and logo*/
+h1, h2{
+    font-family: Quicksand, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #3a3a3a;
+}
 
+a{
+    text-decoration: none;
+}
+
+#namaste-logo{
+    margin: 1%;
+    padding: 10px;
+    text-align: center;
+    font-size: 180%;
+    list-style-type: none;
+    
+}
 
 /* navigation links */
+
+#menu{
+    font-size: 180%;
+    letter-spacing: 4px;
+    text-align: center;
+    background-color: #881111;
+}
+
+#menu a{
+    color: #fafafa;
+}
+
+#menu li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+}
+
 
 
 /* yoga picture*/
