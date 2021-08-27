@@ -22,10 +22,6 @@ h1, h2{
     color: #3a3a3a;
 }
 
-a{
-    text-decoration: none;
-}
-
 #namaste-logo{
     margin: 1%;
     padding: 10px;
@@ -34,6 +30,9 @@ a{
     list-style-type: none;
     
 }
+#namaste-logo a{
+    text-decoration: none;
+}
 
 /* navigation links */
 
@@ -41,11 +40,13 @@ a{
     font-size: 180%;
     letter-spacing: 4px;
     text-align: center;
-    background-color: #881111;
+    background-color: lemonchiffon;
 }
 
 #menu a{
     color: #fafafa;
+    text-decoration: none;
+    color: inherit;
 }
 
 #menu li{
@@ -55,7 +56,19 @@ a{
     text-decoration: none;
 }
 
+#menu a:hover{
+    border-bottom: 1px solid #3a3a3a;
+}
 
+.active{
+    border-bottom: 1px solid #3a3a3a;
+}
+
+/* About section*/
+
+#about-p{
+    background-color: lawngreen;
+}
 
 /* yoga picture*/
 
