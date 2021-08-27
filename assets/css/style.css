@@ -15,6 +15,11 @@ body{
 }
 
 /* heading and logo*/
+
+#namaste header{
+    
+}
+
 h1, h2{
     font-family: Quicksand, sans-serif;
     text-transform: uppercase;
@@ -26,6 +31,7 @@ h1, h2{
     text-align: center;
     font-size: 180%;
     list-style-type: none;
+    padding: 55px 50px 25px 50px;
 }
 #namaste-logo a{
     text-decoration: none;
@@ -37,8 +43,7 @@ h1, h2{
     font-size: 180%;
     letter-spacing: 4px;
     text-align: center;
-    padding: 7px;
-   
+    padding: 25px 50px 25px 50px;
 }
 
 #menu a{
@@ -95,32 +100,21 @@ h1, h2{
 /* yoga picture*/
 
 #yoga-picture{
-  height: 350px;
+  height: 650px;
   max-width: 100%;
   margin: 1%;
-  padding: 2px;
-  
+  padding: 5px 155px 25px 155px;
+  text-align: center;
 }
 
 #yoga-picture img{
-    max-width: 20%;
-    height: 250px;
-    float: left;
-    padding: 30px 0 0 10px;
+    max-width: 100%;
+    height: 270px;
     text-align: center;
     border: 2px solid white;
     box-sizing: border-box;
 }
 
-.yoga-picture-left{
-    max-width: 100%;
-    float: left;
-}
-
-.yoga-picture-right{
-    max-width: 100%;
-    float: right;
-}
 /* category section Mindfulness Meditation and Yoga*/
 
 #namaste-category{
