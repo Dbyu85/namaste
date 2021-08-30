@@ -142,21 +142,21 @@ h1, h2{
 }
 
 /* Instructore section */
-#our-instructore{
-    max-width: 100%;
-    height: auto;
-    margin: 4%;
-    padding: 2px;
-}
 
-#our-instructore div{
-    max-width: 200px;
-    height: 200px;
+#our-instructore{
+    background-color: green;
+}
+.instructore-container{
+    max-width: 150px;
+    height: 150px;
     padding: 30px;
     border-style: solid;
     border-color: #ccc;
     border-width: 1px;
     border-radius: 50%;
-    margin: 0 auto;
-    display: inline-block;
+    margin: 0 auto;    
+}
+
+.image-instructore-bg{
+    
 }
